@@ -1,56 +1,103 @@
-<html>
-<!-- root of DOM -->
-  <head>
-    <title>Piano Lessons</title>
-  </head>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <body>
-    <!-- All the content of the webpage -->
-    <h1>Piano Lessons :)</h1>
-    <h6>ABOUT US</h6>
-    <p>We are a small buisness open for all ages. <b>text</b>.</p>
-    <p>We are open from <i>9AM-6PM</i> MON-FRI.</p>
-    <p>Available time slots:</p>
-       <p><i>MORNING CLASSES</i></p>
+        <meta name="description" content="">
+        <meta name="author" content="Tooplate">
 
-    <ol>
-      <li>9AM-10AM</li>
-      <li>10AM-11AM </li>
-      <li>11AM-12PM</li>
-    </ol>
+        <title>Silent Notes</title>
 
-    <p><i>AFTERNOON CLASSES</i></p>
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <ul>
-      <li>12PM-1PM</li>
-      <li>1PM-2PM</li>
-      <li>2PM-3PM</li>
-      <li>3PM-4PM</li>
-    </ul>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;600;700&display=swap" rel="stylesheet">
 
-    <p><i>EVENING CLASSES</i></p>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <ul>
-      <li>4PM-5PM</li>
-      <li>5PM-6PM</li>
-    </ul>
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
 
-    <!-- generic -->
-    <div id="my-unique-id">
-      a genertic division/block in the <span>page</span>
-    </div>
+        <link href="css/owl.carousel.min.css" rel="stylesheet">
 
-    <!-- links -->
-    <a href="page.html">I am a link to another page</a>
-    <a href="#my-unique-id">internal link</a>
+        <link href="css/tooplate-moso-interior.css" rel="stylesheet">
 
-    <br/>
-    <!-- images -->
-    <img src="kitty.jpg" alt-text="what is the image of" />
-    <img src="cat-cat-dance.gif" alt-text="what is the image of" />
-    <img src="https://media.istockphoto.com/photos/european-short-haired-cat-picture-id1072769156?k=20&m=1072769156&s=612x612&w=0&h=k6eFXtE7bpEmR2ns5p3qe_KYh098CVLMz4iKm5OuO6Y=" />
-    <!-- image as link -->
-    <a href="http://duckduckgo.com"><img src="kitty.jpg" alt-text="what is the image of" /></a>
 
-  </body>
-</html>
+
+            <section class="contact-section" id="section_5">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f9f9f9" fill-opacity="1" d="M0,96L40,117.3C80,139,160,181,240,186.7C320,192,400,160,480,149.3C560,139,640,149,720,176C800,203,880,245,960,250.7C1040,256,1120,224,1200,229.3C1280,235,1360,277,1400,298.7L1440,320L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+                <div class="container">
+                    <div class="row">
+
+
+                        <div class="col-lg-12 col-12">
+                            <small class="section-small-title">Strings</small>
+
+                            <h2 class="mb-4">Book Classes Today!</h2>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <form class="custom-form contact-form" action="#" method="post" role="form">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div class="input-group align-items-center">
+                                            <label for="first-name">First Name</label>
+
+                                            <input type="text" name="first-name" id="first-name" class="form-control" placeholder="Jack" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div class="input-group align-items-center">
+                                            <label for="last-name">Last Name</label>
+
+                                            <input type="text" name="last-name" id="last-name" class="form-control" placeholder="Doe" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="input-group align-items-center">
+                                    <label for="email">Email Address</label>
+
+                                     <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jackdoe@gmail.com" required>
+                                </div>
+
+
+                                <form class="custom-form hero-form" action="#" method="get" role="form">
+                                    <div class="row">
+                                        <div class="col-lg-5 col-md-6 col-12">
+                                            <div class="input-group align-items-center">
+                                                <label for="product-name">Product</label>
+
+                                                <input type="text" name="product-name" id="product-name" class="form-control" placeholder="Bathroom, Living Room..." required>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-5 col-md-6 col-12">
+                                            <div class="input-group align-items-center">
+                                                <label for="last-name">Price</label>
+
+                                                <select name="price-range" class="form-select form-control" id="price-range" aria-label="Default select example">
+                                                    <option value="500" selected>$500 to $990</option>
+                                                    <option value="1000">$1,000 - 2,900</option>
+                                                    <option value="3000">$3,000 - 5,000</option>
+                                                    <option value="5000">$5,000 - 10,000</option>
+                                                    <option value="11000">$11,000 - 25,000</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+                                <div class="input-group textarea-group">
+                                    <label for="message">Extra Information</label>
+
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="What can we help you?"></textarea>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <button type="submit" class="form-control">Book</button>
+                                </div>
+                            </form>
+                        </div>
