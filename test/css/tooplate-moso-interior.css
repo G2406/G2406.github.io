@@ -155,7 +155,7 @@ strong {
 }
 
 .section-small-title {
-  color: var(--custom-btn-bg-color);
+  color: var(--white-color);
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-semibold);
   display: block;
