@@ -37,7 +37,6 @@ url("../fonts/bootstrap-icons.woff?30af91bf14e37666a085fb8a161ff36d") format("wo
 .bi-arrow-90deg-left::before { content: "\f10f"; }
 .bi-arrow-90deg-right::before { content: "\f110"; }
 .bi-arrow-90deg-up::before { content: "\f111"; }
-.bi-arrow-bar-down::before { content: "\f112"; }
 .bi-arrow-bar-left::before { content: "\f113"; }
 .bi-arrow-bar-right::before { content: "\f114"; }
 .bi-arrow-bar-up::before { content: "\f115"; }
