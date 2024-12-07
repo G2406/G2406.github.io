@@ -18,7 +18,7 @@ html {
 
 .one {
   background-color: purple;
-  position: center;
+  position: absolute;
   top: 15px;
   left: 15px;
   width: 1000px;
