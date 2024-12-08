@@ -5,35 +5,47 @@ html {
 
 .main {
   font-size: 2.5rem;
-  color: black;
-  background-color: rgba(238, 130, 238);
-  margin: 10px;
-  padding: 10px;
-  border: 10px solid bisque;
-  width: 100px;
-  height: 50px;
+  color: white;
+  border: 10px solid fuchsia;
   display: block;
   vertical-align: top;
+
 }
 
 .one {
   background-color: violet;
-  position: absolute;
+  position: relative;
   top: -10px;
-  left: 25px;
   width: 600px;
   height: 90px;
-  z-index: 10;
+  z-index: 1;
   text-align: center;
   vertical-align: middle;
-  line-height: 90px;
+  line-height: 0px;
   margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; /
+
   
 }
 
 .two {
-  background-color: fuchsia;
+  font-size: 50px;
+  background-color: violet;
   position: relative;
-  top: 10px;
-  left: 25px;
+  width: 100px;
+  height: 50px;
+  top: -60px;
+  left: 950px;
+   z-index: 2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; /
 }
+
+
+
+
