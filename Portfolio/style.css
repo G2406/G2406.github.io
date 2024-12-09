@@ -91,8 +91,8 @@ html {
 .six {
 img {
   position: relative;    /* Required for `top` and `left` to work */
-  top: -120px;             /* Moves the image down */
-  left: 1115px;            /* Moves the image to the right */
+  top: -170px;             /* Moves the image down */
+  left: 1160px;            /* Moves the image to the right */
   width: 200px;          /* Sets the new width */
   height: auto;  
   z-index: 6;
