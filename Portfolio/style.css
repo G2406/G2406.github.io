@@ -52,7 +52,7 @@ html {
   position: relative;
   width: 100px;
   height: 50px;
-  top: 100px;
+  top: 50px;
   left: 0px;
    z-index: 2;
   display: flex;
@@ -65,7 +65,7 @@ html {
   position: relative;
   width: 1405px;
   height: 300px;
-  top: 120px;
+  top: 100px;
   left: 0px;
    z-index: 2;
   display: flex;
@@ -77,13 +77,25 @@ html {
   position: relative;
   width: 150px;
   height: 50px;
-  top: 30px;
+  top: 10px;
   left: 1200px;
    z-index: 5;
   display: flex;
   align-items: center; /
 }
 
+.six {
+img {
+  position: relative;    /* Required for `top` and `left` to work */
+  top: -120px;             /* Moves the image down */
+  left: 1115px;            /* Moves the image to the right */
+  width: 200px;          /* Sets the new width */
+  height: auto;  
+  z-index: 6;
+
+       /* Maintains aspect ratio */
+}
+}
 
 
 
