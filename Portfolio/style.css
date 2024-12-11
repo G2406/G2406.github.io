@@ -1,6 +1,7 @@
 html {
   font-size: 24px;
   font-family:"Lucida Console", monospace;
+  background-color: rgba(255, 245, 215);
 }
 
 .main {
@@ -12,8 +13,7 @@ html {
 }
 
 .one {
-  background-color: violet;
-  border: 10px solid fuchsia;
+  background-color: rgba(225, 149, 171);
   position: relative;
   top: -10px;
   width: 600px;
@@ -33,7 +33,7 @@ html {
 
 .two {
   font-size: 50px;
-  background-color: violet;
+  background-color: rgba(255, 204, 225);
   border: 10px solid fuchsia;
   position: relative;
   width: 100px;
@@ -90,16 +90,30 @@ html {
 
 .six {
 img {
-  position: relative;    /* Required for `top` and `left` to work */
-  top: -170px;             /* Moves the image down */
-  left: 1160px;            /* Moves the image to the right */
-  width: 200px;          /* Sets the new width */
+  position: relative;    
+  top: -170px;             
+  left: 1160px;            
+  width: 200px;          
   height: auto;  
-  z-index: 6;
+  z-index: 6;/
+}
 
-       /* Maintains aspect ratio */
+.seven {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  border: 2px solid black;
+  margin: 20px auto; /* Center horizontally and add spacing */
+  display: flex;
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  font-size: 1.2rem;
+  position: relative; /* Allows additional positioning */
 }
+
 }
+
+
 
 
 
