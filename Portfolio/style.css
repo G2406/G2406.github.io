@@ -1,6 +1,6 @@
 html {
   font-size: 24px;
-  font-family:"Lucida Console", monospace;
+  font-family:"Lucida Console", monospace; /* background */
   background-image: url("images/bk20.JPG");
   background-repeat: no-repeat;
   background-position: center;
@@ -11,7 +11,7 @@ html {
 
 
 
-.main {
+.main { /* default look of each div before extra styling */
   font-size: 2.5rem;
   display: block;
   vertical-align: top;
@@ -19,7 +19,7 @@ html {
 
 }
 
-.one {
+.one { /* Name/title of portfolio */
   background-color: rgba(251, 161, 183);
   border: 5px solid white;
   position: relative;
@@ -39,7 +39,7 @@ html {
   
 }
 
-.two {
+.two { /* style for CV box */
   font-size: 50px;
   background-color: rgba(254,95,136);
   border: 5px solid rgba(254,95,136);
@@ -56,7 +56,7 @@ html {
   align-items: center; /
 }
 
-.three {
+.three { /* 'BIO' is used as a label for the desciption*/
   font-size: 40px;
   background-color: rgba(251, 161, 183);
   border: 5px solid white;
@@ -70,7 +70,7 @@ html {
   align-items: center; /
 }
 
-.four {
+.four { /* Actual Bio box style */
   font-size: 30px;
   background-color: rgba(225, 149, 171);
   border: 5px solid white;
@@ -84,7 +84,7 @@ html {
    /
 }
 
-.five {
+.five { /* Starts with the Project text then also reveals all the projects shown in my portfolio, */
   font-size: 50px;
   background-color: rgba(225, 149, 171);
   border: 5px solid white;
@@ -98,15 +98,8 @@ html {
 }
 
 
-div.gallery {
-  border: 1px solid #ccc;
-}
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
+div.gallery img { /* image gallery for each project, used as a visual elements so user can see what they're clicking*/
   width: 100%;
   height: auto;
 }
@@ -149,7 +142,7 @@ div.gallery img {
 .tooltip .tooltiptext {
   font-size: 12px;
   visibility: hidden; 
-  width: 300px; 
+  width: 350px; 
   background-color: rgba(0, 0, 0, 0.7); 
   color: white; 
   text-align: center;
@@ -170,8 +163,7 @@ div.gallery img {
   opacity: 1;
 }
 
-.six {
-  visibility: visible;
+.six { /* shows the contacts, only one box since an email is the only preferred form of contact */
   font-size: 30px;
   background-color: rgba(255, 204, 225);
   border: 5px solid rgba(255, 204, 225);
@@ -189,8 +181,7 @@ div.gallery img {
   margin: auto;
 }
 
-.seven {
-  visibility: visible;
+.seven { /* phone image to indicate the contacts, image positioning */
   position: relative;
   z-index: 6; 
   top: -425px; 
@@ -199,7 +190,7 @@ div.gallery img {
   margin: auto;;
 }
 
-.seven img {
+.seven img { /* image size */
   width: 200px;
   height: auto;
 }
