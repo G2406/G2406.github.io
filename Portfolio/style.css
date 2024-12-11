@@ -71,7 +71,7 @@ html {
 }
 
 .four {
-  font-size: 20px;
+  font-size: 30px;
   background-color: rgba(225, 149, 171);
   border: 5px solid white;
   position: relative;
@@ -140,15 +140,46 @@ div.gallery img {
   clear: both;
 }
 
+.tooltip { /* box that appears when hovering over a project, reveals description of the project */
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+  font-size: 12px;
+  visibility: hidden; 
+  width: 300px; 
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: white; 
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  top: 200px; 
+  left: 50%;
+  transform: translateX(-50%); 
+  opacity: 0; 
+  transition: opacity 0.3s ease, visibility 0.3s ease; 
+  z-index: 1; 
+}
+
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
 .six {
+  visibility: visible;
   font-size: 30px;
   background-color: rgba(255, 204, 225);
   border: 5px solid rgba(255, 204, 225);
   position: relative;
-  width: 180px;
+  width: 300px;
   height: 50px;
-  top: -400px; 
-  left: 90%; 
+  top: -265px; 
+  left: 33%; 
   transform: translateX(-50%);
   z-index: 5;
   text-align: center;
@@ -159,10 +190,11 @@ div.gallery img {
 }
 
 .seven {
+  visibility: visible;
   position: relative;
   z-index: 6; 
-  top: -565px; 
-  left: 90%; 
+  top: -425px; 
+  left: 75%; 
   transform: translateX(-50%)
   margin: auto;;
 }
