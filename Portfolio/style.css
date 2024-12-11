@@ -19,53 +19,6 @@ html {
 
 }
 
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .one {
   background-color: rgba(251, 161, 183);
   border: 5px solid white;
@@ -126,7 +79,8 @@ div.desc {
   top: 70px;
   left: 0px;
    z-index: 2;
-  display: flex; /
+  display: flex;
+   /
 }
 
 .five {
@@ -134,14 +88,56 @@ div.desc {
   background-color: rgba(225, 149, 171);
   border: 5px solid white;
   position: relative;
-  width: 1439.4px;
-  height: 3000px;
-  top: 400px;
-  left: -12.8px;
-   z-index: 2;
-  display: flex; /
+  width: 100%;
+  padding: 20px;
+  top: 300px;
+  z-index: 2;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 10px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .six {
   font-size: 30px;
@@ -150,23 +146,27 @@ div.desc {
   position: relative;
   width: 180px;
   height: 50px;
-  top: -3030px;
-  left: 1200px;
-   z-index: 5;
+  top: 0px; 
+  left: 50%; 
+  transform: translateX(-50%);
+  z-index: 5;
   text-align: center;
-  display: flex; 
-  justify-content: center; 
-  align-items: center; /
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .seven {
-img {
-  position: relative;    
-  top: -3203px;             
-  left: 1175px;            
-  width: 200px;          
-  height: auto;  
-  z-index: 6; /
+  position: relative;
+  z-index: 6; 
+  top: 20px; 
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+.seven img {
+  width: 200px;
+  height: auto;
 }
 
 
