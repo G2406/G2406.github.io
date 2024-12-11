@@ -1,5 +1,5 @@
 html {
-  font-size: 24px; /* background + font} */
+  font-size: 24px;
   font-family:"Lucida Console", monospace;
   background-image: url("images/bk20.JPG");
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@ html {
 
 
 
-.main { /* main div, all divs start out like this then change depending on additional styling */
+.main {
   font-size: 2.5rem;
   display: block;
   vertical-align: top;
@@ -19,7 +19,7 @@ html {
 
 }
 
-.one { /* Name */
+.one {
   background-color: rgba(251, 161, 183);
   border: 5px solid white;
   position: relative;
@@ -39,7 +39,7 @@ html {
   
 }
 
-.two { /* CV */
+.two {
   font-size: 50px;
   background-color: rgba(254,95,136);
   border: 5px solid rgba(254,95,136);
@@ -56,7 +56,7 @@ html {
   align-items: center; /
 }
 
-.three { /* BIO label */
+.three {
   font-size: 40px;
   background-color: rgba(251, 161, 183);
   border: 5px solid white;
@@ -70,8 +70,8 @@ html {
   align-items: center; /
 }
 
-.four { /* Proper bio description */
-  font-size: 30px;
+.four {
+  font-size: 20px;
   background-color: rgba(225, 149, 171);
   border: 5px solid white;
   position: relative;
@@ -84,13 +84,13 @@ html {
    /
 }
 
-.five { /* Projects section */
+.five {
   font-size: 50px;
   background-color: rgba(225, 149, 171);
   border: 5px solid white;
   position: relative;
   width: 100%;
-  padding: 50px;
+  padding: 20px;
   top: 300px;
   z-index: 2;
   box-sizing: border-box;
@@ -98,8 +98,15 @@ html {
 }
 
 
+div.gallery {
+  border: 1px solid #ccc;
+}
 
-div.gallery img { /* image gallery for all projects, when clicking on a picture it will be sent to the project */
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
   width: 100%;
   height: auto;
 }
@@ -133,46 +140,15 @@ div.gallery img { /* image gallery for all projects, when clicking on a picture 
   clear: both;
 }
 
-
-.tooltip { /* box that appears when hovering over a project, reveals description of the project */
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.tooltip .tooltiptext {
-  font-size: 12px;
-  visibility: hidden; 
-  width: 300px; 
-  background-color: rgba(0, 0, 0, 0.7); 
-  color: white; 
-  text-align: center;
-  border-radius: 5px;
-  padding: 10px;
-  position: absolute;
-  top: 200px; 
-  left: 50%;
-  transform: translateX(-50%); 
-  opacity: 0; 
-  transition: opacity 0.3s ease, visibility 0.3s ease; 
-  z-index: 1; 
-}
-
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
-.six { 
+.six {
   font-size: 30px;
   background-color: rgba(255, 204, 225);
   border: 5px solid rgba(255, 204, 225);
   position: relative;
-  width: 300px;
+  width: 180px;
   height: 50px;
-  top: -600px; 
-  left: 45%; 
+  top: -400px; 
+  left: 90%; 
   transform: translateX(-50%);
   z-index: 5;
   text-align: center;
@@ -186,7 +162,7 @@ div.gallery img { /* image gallery for all projects, when clicking on a picture 
   position: relative;
   z-index: 6; 
   top: -565px; 
-  left: 76%; 
+  left: 90%; 
   transform: translateX(-50%)
   margin: auto;;
 }
@@ -195,8 +171,6 @@ div.gallery img { /* image gallery for all projects, when clicking on a picture 
   width: 200px;
   height: auto;
 }
-
-
 
 
 
